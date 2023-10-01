@@ -29,7 +29,12 @@ form {
 @media (min-width : 880px){
   .dele{
   display : flex;
-justify-content: flex-start;
+justify-content: space-evenly;
+  }
+  .btns{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
   }
 }
 input[type="text"],
@@ -54,6 +59,7 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  display: flex;
 }
 
 .dele {
