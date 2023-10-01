@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background: radial-gradient(teal, rgb(49, 43, 43));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+  background-color: black;
+  color: beige;
+  border: none;
+  outline: transparent;
+
+
 }
+form {
+  width: 400px;
+  background : radial-gradient(teal, black);
+  display: flex;
+  background-color: black;
+  color : white;
+  flex-direction: column; /* Change to column layout */
+}
+.fish{
+  margin-top: -10px;
+}
+@media (max-width : 880px){
+  .dele{
+  width : 100%;
+  }
+}
+@media (min-width : 880px){
+  .dele{
+  display : flex;
+justify-content: flex-start;
+  }
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  margin-bottom: 7px;
+  padding: 10px 10px;
+  background-color: black;
+  color : white;
+  border: 1px solid #ccc;
+  border: none;
+  outline: transparent;
+}
+.main{
+  width: 100%;
+  
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dele {
+
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px; /* Adjust the gap between items as needed */
+  
+}
+
